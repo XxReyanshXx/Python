@@ -11,7 +11,3 @@ class Rectangle():
         
 newRectangle = Rectangle(12,10)  
 print("Area of rectangle:",newRectangle.rectangle_area())
-    
-        
-
-

@@ -1,0 +1,25 @@
+
+file = open("codingal.txt", "w")
+file.write("Milk\n")
+file.write("Bread\n")
+file.write("Eggs\n")
+file.close()
+
+file = open("codingal.txt", "r")
+print("Shopping List:")
+print(file.read())
+file.close()
+
+
+file = open("codingal.txt", "a")
+file.write("Apples\n")
+file.write("Chocolate\n")
+file.close()
+
+file = open("codingal.txt", "r")
+print("Updated Shopping List:")
+
+for line in file:
+    print(line.strip())
+
+file.close()
